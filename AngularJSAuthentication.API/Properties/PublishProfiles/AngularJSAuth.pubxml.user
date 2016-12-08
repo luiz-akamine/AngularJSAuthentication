@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\AngularJSAuthAPI</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AngularJSAuthentication.API.csproj">
+      <publishTime>07/14/2016 21:08:45</publishTime>
+    </File>
+    <File Include="AngularJSAuthentication.API.csproj.user">
+      <publishTime>07/14/2016 21:08:45</publishTime>
+    </File>
+    <File Include="App_Start/WebApiConfig.cs">
+      <publishTime>07/13/2016 22:18:50</publishTime>
+    </File>
+    <File Include="AuthContext.cs">
+      <publishTime>07/13/2016 22:29:46</publishTime>
+    </File>
+    <File Include="bin/AngularJSAuthentication.API.dll">
+      <publishTime>07/17/2016 13:40:51</publishTime>
+    </File>
+    <File Include="bin/AngularJSAuthentication.API.pdb">
+      <publishTime>07/14/2016 23:57:31</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>07/13/2016 22:21:44</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>07/13/2016 22:21:44</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.xml">
+      <publishTime>07/13/2016 22:21:44</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.xml">
+      <publishTime>07/13/2016 22:21:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>07/13/2016 22:21:03</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.xml">
+      <publishTime>07/13/2016 22:21:03</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>07/13/2016 22:21:45</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.xml">
+      <publishTime>07/13/2016 22:21:45</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>07/13/2016 22:21:03</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.xml">
+      <publishTime>07/13/2016 22:21:03</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Cors.dll">
+      <publishTime>07/14/2016 19:47:02</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Cors.xml">
+      <publishTime>07/14/2016 19:47:02</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>07/13/2016 21:35:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>07/13/2016 21:35:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.xml">
+      <publishTime>07/13/2016 21:35:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>07/13/2016 22:21:03</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.xml">
+      <publishTime>07/13/2016 22:21:03</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>07/13/2016 22:21:03</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>07/13/2016 22:21:03</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.xml">
+      <publishTime>07/13/2016 22:21:03</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.xml">
+      <publishTime>07/13/2016 22:21:03</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.xml">
+      <publishTime>07/13/2016 21:35:10</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>07/13/2016 21:24:17</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.xml">
+      <publishTime>07/13/2016 21:24:17</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>07/13/2016 21:35:10</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>07/13/2016 21:24:18</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.xml">
+      <publishTime>07/13/2016 21:24:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Cors.dll">
+      <publishTime>07/14/2016 19:47:01</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>07/13/2016 21:24:19</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.Owin.dll">
+      <publishTime>07/13/2016 21:35:10</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.Owin.xml">
+      <publishTime>07/13/2016 21:35:10</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>07/13/2016 21:24:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.xml">
+      <publishTime>07/13/2016 21:24:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.xml">
+      <publishTime>07/13/2016 21:24:19</publishTime>
+    </File>
+    <File Include="Controllers/AccountController.cs">
+      <publishTime>07/14/2016 18:55:48</publishTime>
+    </File>
+    <File Include="Controllers/OrdersController.cs">
+      <publishTime>07/14/2016 20:57:58</publishTime>
+    </File>
+    <File Include="Migrations/Configuration.cs">
+      <publishTime>07/14/2016 20:57:11</publishTime>
+    </File>
+    <File Include="Models/UserModel.cs">
+      <publishTime>07/14/2016 23:56:27</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>07/16/2016 00:26:54</publishTime>
+    </File>
+    <File Include="Properties/AssemblyInfo.cs">
+      <publishTime>07/13/2016 21:24:12</publishTime>
+    </File>
+    <File Include="Properties/PublishProfiles/AngularJSAuth.pubxml">
+      <publishTime>07/14/2016 20:15:52</publishTime>
+    </File>
+    <File Include="Properties/PublishProfiles/AngularJSAuth.pubxml.user">
+      <publishTime>07/14/2016 20:58:08</publishTime>
+    </File>
+    <File Include="Providers/SimpleAuthorizationServerProvider.cs">
+      <publishTime>07/14/2016 19:46:13</publishTime>
+    </File>
+    <File Include="Providers/SimpleRefreshTokenProvider.cs">
+      <publishTime>07/14/2016 19:11:20</publishTime>
+    </File>
+    <File Include="Repository/AuthRepository.cs">
+      <publishTime>07/14/2016 18:47:17</publishTime>
+    </File>
+    <File Include="Startup.cs">
+      <publishTime>07/14/2016 19:49:24</publishTime>
+    </File>
+    <File Include="Utilizando WebAPI/1 - Básico sem Refresh Token/1 - Registrando Usuário.png">
+      <publishTime>07/14/2016 21:05:49</publishTime>
+    </File>
+    <File Include="Utilizando WebAPI/1 - Básico sem Refresh Token/2 - Autenticando usuário e adquirindo Token.png">
+      <publishTime>07/14/2016 21:06:35</publishTime>
+    </File>
+    <File Include="Utilizando WebAPI/1 - Básico sem Refresh Token/3 - Chamando API com token.png">
+      <publishTime>07/14/2016 21:07:44</publishTime>
+    </File>
+    <File Include="Utilizando WebAPI/1 - Registrando Usuário.png">
+      <publishTime>07/14/2016 21:05:49</publishTime>
+    </File>
+    <File Include="Utilizando WebAPI/2 - Autenticando usuário e adquirindo Token.png">
+      <publishTime>07/14/2016 21:06:35</publishTime>
+    </File>
+    <File Include="Utilizando WebAPI/2 - Com Refresh Token/1 - Registrando Usuário.png">
+      <publishTime>07/16/2016 12:35:55</publishTime>
+    </File>
+    <File Include="Utilizando WebAPI/2 - Com Refresh Token/2 - Autenticando usuário e adquirindo Token %28Client %27%27não confidencial%27%27%29.png">
+      <publishTime>07/16/2016 12:37:47</publishTime>
+    </File>
+    <File Include="Utilizando WebAPI/2 - Com Refresh Token/3 - Requisitando novo Refresh Token.png">
+      <publishTime>07/16/2016 14:04:02</publishTime>
+    </File>
+    <File Include="Utilizando WebAPI/2 - Com Refresh Token/5 - Removendo Refresh Token.png">
+      <publishTime>07/16/2016 15:25:11</publishTime>
+    </File>
+    <File Include="Utilizando WebAPI/3 - Chamando API com token.png">
+      <publishTime>07/14/2016 21:07:44</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/17/2016 13:30:35</publishTime>
+    </File>
+    <File Include="Web.Debug.config">
+      <publishTime>07/13/2016 21:24:14</publishTime>
+    </File>
+    <File Include="Web.Release.config">
+      <publishTime>07/13/2016 21:24:14</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

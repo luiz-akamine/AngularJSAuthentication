@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\AngularJSAuthWeb</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AngularJSAuthentication.Web.csproj">
+      <publishTime>07/16/2016 00:00:24</publishTime>
+    </File>
+    <File Include="AngularJSAuthentication.Web.csproj.user">
+      <publishTime>07/15/2016 23:57:21</publishTime>
+    </File>
+    <File Include="app/app.js">
+      <publishTime>07/18/2016 21:46:53</publishTime>
+    </File>
+    <File Include="app/controllers/associateController.js">
+      <publishTime>07/18/2016 22:11:14</publishTime>
+    </File>
+    <File Include="app/controllers/homeController.js">
+      <publishTime>07/14/2016 23:01:43</publishTime>
+    </File>
+    <File Include="app/controllers/indexController.js">
+      <publishTime>07/17/2016 11:08:37</publishTime>
+    </File>
+    <File Include="app/controllers/loginController.js">
+      <publishTime>07/18/2016 22:27:44</publishTime>
+    </File>
+    <File Include="app/controllers/ordersController.js">
+      <publishTime>07/17/2016 11:11:32</publishTime>
+    </File>
+    <File Include="app/controllers/refreshController.js">
+      <publishTime>07/17/2016 12:16:17</publishTime>
+    </File>
+    <File Include="app/controllers/signupController.js">
+      <publishTime>07/14/2016 22:35:15</publishTime>
+    </File>
+    <File Include="app/controllers/tokensManagerController.js">
+      <publishTime>07/17/2016 12:23:12</publishTime>
+    </File>
+    <File Include="app/services/authInterceptorService.js">
+      <publishTime>07/17/2016 12:49:38</publishTime>
+    </File>
+    <File Include="app/services/AuthService.js">
+      <publishTime>07/18/2016 22:07:55</publishTime>
+    </File>
+    <File Include="app/services/ordersController.js">
+      <publishTime>07/13/2016 20:28:17</publishTime>
+    </File>
+    <File Include="app/services/ordersService.js">
+      <publishTime>07/17/2016 12:37:44</publishTime>
+    </File>
+    <File Include="app/services/tokensManagerService.js">
+      <publishTime>07/18/2016 22:09:33</publishTime>
+    </File>
+    <File Include="app/views/associate.html">
+      <publishTime>07/18/2016 22:13:18</publishTime>
+    </File>
+    <File Include="app/views/home.html">
+      <publishTime>07/15/2016 23:52:31</publishTime>
+    </File>
+    <File Include="app/views/login.html">
+      <publishTime>07/18/2016 22:26:50</publishTime>
+    </File>
+    <File Include="app/views/orders.html">
+      <publishTime>07/14/2016 23:40:59</publishTime>
+    </File>
+    <File Include="app/views/refresh.html">
+      <publishTime>07/17/2016 12:30:53</publishTime>
+    </File>
+    <File Include="app/views/signup.html">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="app/views/tokens.html">
+      <publishTime>07/17/2016 12:31:40</publishTime>
+    </File>
+    <File Include="authComplete.html">
+      <publishTime>07/18/2016 21:40:50</publishTime>
+    </File>
+    <File Include="bin/AngularJSAuthentication.Web.dll">
+      <publishTime>07/18/2016 22:28:58</publishTime>
+    </File>
+    <File Include="bin/AngularJSAuthentication.Web.pdb">
+      <publishTime>07/16/2016 00:00:43</publishTime>
+    </File>
+    <File Include="content/css/bootstrap.min.css">
+      <publishTime>07/14/2016 21:30:25</publishTime>
+    </File>
+    <File Include="content/css/font-awesome.min.css">
+      <publishTime>07/13/2016 20:28:18</publishTime>
+    </File>
+    <File Include="content/css/loading-bar.css">
+      <publishTime>07/13/2016 20:28:18</publishTime>
+    </File>
+    <File Include="content/css/loading-bar.min.css">
+      <publishTime>07/13/2016 20:28:18</publishTime>
+    </File>
+    <File Include="content/css/site.css">
+      <publishTime>07/13/2016 20:28:18</publishTime>
+    </File>
+    <File Include="content/css/social-buttons.css">
+      <publishTime>07/13/2016 20:28:18</publishTime>
+    </File>
+    <File Include="content/fonts/fontawesome-webfont.eot">
+      <publishTime>07/13/2016 20:28:18</publishTime>
+    </File>
+    <File Include="content/fonts/fontawesome-webfont.svg">
+      <publishTime>07/13/2016 20:28:18</publishTime>
+    </File>
+    <File Include="content/fonts/fontawesome-webfont.ttf">
+      <publishTime>07/13/2016 20:28:18</publishTime>
+    </File>
+    <File Include="content/fonts/fontawesome-webfont.woff">
+      <publishTime>07/13/2016 20:28:18</publishTime>
+    </File>
+    <File Include="content/fonts/FontAwesome.otf">
+      <publishTime>07/13/2016 20:28:18</publishTime>
+    </File>
+    <File Include="content/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>07/13/2016 20:28:18</publishTime>
+    </File>
+    <File Include="content/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>07/13/2016 20:28:18</publishTime>
+    </File>
+    <File Include="content/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>07/13/2016 20:28:18</publishTime>
+    </File>
+    <File Include="content/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>07/13/2016 20:28:18</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>07/18/2016 22:15:58</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>07/16/2016 00:33:44</publishTime>
+    </File>
+    <File Include="Properties/AssemblyInfo.cs">
+      <publishTime>07/14/2016 21:21:19</publishTime>
+    </File>
+    <File Include="Properties/PublishProfiles/AngularJSAuth.pubxml">
+      <publishTime>07/15/2016 23:59:34</publishTime>
+    </File>
+    <File Include="Properties/PublishProfiles/AngularJSAuth.pubxml.user">
+      <publishTime>07/16/2016 00:00:44</publishTime>
+    </File>
+    <File Include="scripts/angular-animate.min.js">
+      <publishTime>06/14/2016 20:34:14</publishTime>
+    </File>
+    <File Include="scripts/angular-local-storage.min.js">
+      <publishTime>07/13/2016 20:28:18</publishTime>
+    </File>
+    <File Include="scripts/angular-route.js">
+      <publishTime>06/14/2016 20:34:07</publishTime>
+    </File>
+    <File Include="scripts/angular-route.min.js">
+      <publishTime>06/14/2016 20:34:07</publishTime>
+    </File>
+    <File Include="scripts/angular.js">
+      <publishTime>07/16/2016 03:20:56</publishTime>
+    </File>
+    <File Include="scripts/angular.min.js">
+      <publishTime>06/14/2016 20:34:15</publishTime>
+    </File>
+    <File Include="scripts/authComplete.js">
+      <publishTime>07/18/2016 21:40:52</publishTime>
+    </File>
+    <File Include="scripts/loading-bar.min.js">
+      <publishTime>07/13/2016 20:28:18</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/17/2016 14:33:22</publishTime>
+    </File>
+    <File Include="Web.Debug.config">
+      <publishTime>07/14/2016 21:21:20</publishTime>
+    </File>
+    <File Include="Web.Release.config">
+      <publishTime>07/14/2016 21:21:20</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

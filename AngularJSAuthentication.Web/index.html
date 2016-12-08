@@ -1,0 +1,98 @@
+﻿<html data-ng-app="AngularAuthApp">
+<head>
+    <meta name="keywords" content="angularjs,SPA,Single Page Application,refresh tokens,authentication,bearer token authentication,OWIN,bootstrap,bootstrap ui,tutorial,JS framework,ASP.NET WEB API 2,Taiseer Joudeh" />
+    <meta name="description" content="SPA built using angularjs,authentication is done using bearer token,back end built using Asp.net web api 2 and OWIN Framework,creatd by Taiseer Joudeh" />
+    <meta content="IE=edge, chrome=1" http-equiv="X-UA-Compatible" />
+
+    <title>Autenticação em AngularJS</title>
+    
+    <link href="content/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="content/css/site.css" rel="stylesheet" />
+    <link href="content/css/loading-bar.css" rel="stylesheet" />
+    <link href="content/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="content/css/social-buttons.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+</head>
+<body>
+    <!--Menu Início-->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" data-ng-controller="indexController">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="btn btn-success navbar-toggle" data-ng-click="navbarExpanded = !navbarExpanded">
+                    <span class="glyphicon glyphicon-chevron-down"></span>
+                </button>
+                <a class="navbar-brand" href="#/">Home</a>
+            </div>
+            <div class="collapse navbar-collapse" data-collapse="!navbarExpanded">
+                <ul class="nav navbar-nav navbar-right">
+                    <!--Visibilidade de alguns botões do menu de acordo se existe usuário autenticado ou não-->
+                    <li data-ng-hide="!authentication.isAuth"><a href="#">Bem-vindo {{authentication.userName}}</a></li>
+                    <li data-ng-hide="!authentication.isAuth"><a href="#/orders">Minhas Ordens</a></li>
+                    <li data-ng-hide="!authentication.isAuth"><a href="" data-ng-click="logOut()">Sair</a></li>
+                    <li data-ng-hide="authentication.isAuth"> <a href="#/login">Login</a></li>
+                    <li data-ng-hide="authentication.isAuth"> <a href="#/signup">Registre-se</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--Menu Fim-->
+
+    <!--Informação Header Início-->
+    <div class="jumbotron" style="padding-top: 0px">
+        <div class="container" style="margin-bottom: 0px">
+            <div class="page-header text-center">
+                <h1>Autenticação em AngularJS</h1>
+            </div>
+            <p>SPA desenvolvida em AngularJs, usando autenticação com token OAuth bearer, ASP.NET Web API 2, OWIN middleware, e ASP.NET Identity para gerar tokens e registrar usuários.</p>
+        </div>
+    </div>
+    <!--Informação Header Fim-->
+
+    <!--ngView Início-->
+    <div class="container">
+        <div data-ng-view="">
+        </div>
+    </div>
+    <!--ngView Fim-->
+
+    <hr />
+
+    <!--Rodapé Início-->
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="text-muted">Criado por Luiz Akamine.</p>
+                </div>
+                <!--<div class="col-md-6">
+                    <p class="text-muted">Taiseer Joudeh Blog: <a target="_blank" href="http://bitoftech.net">bitoftech.net</a></p>
+                </div>-->
+            </div>
+        </div>
+    </div>
+    <!--Rodapé Início-->
+
+    <!-- 3rd party libraries -->
+    <script src="scripts/angular.js"></script>
+    <script src="scripts/angular-route.js"></script>
+    <script src="scripts/angular-local-storage.min.js"></script>
+    <!--<script src="scripts/angular-animate.min.js"></script>-->
+    <script src="scripts/loading-bar.min.js"></script>
+    <!-- Load app main script -->
+    <script src="app/app.js"></script>
+    <!-- Load services -->
+    <script src="app/services/authInterceptorService.js"></script>
+    <script src="app/services/AuthService.js"></script>
+    <script src="app/services/ordersService.js"></script>
+    <script src="app/services/tokensManagerService.js"></script>
+    <!-- Load controllers -->
+    <script src="app/controllers/indexController.js"></script>
+    <script src="app/controllers/homeController.js"></script>
+    <script src="app/controllers/loginController.js"></script>
+    <script src="app/controllers/signupController.js"></script>
+    <script src="app/controllers/ordersController.js"></script>
+    <script src="app/controllers/refreshController.js"></script>
+    <script src="app/controllers/tokensManagerController.js"></script>
+    <script src="app/controllers/associateController.js"></script>
+</body>
+</html>
